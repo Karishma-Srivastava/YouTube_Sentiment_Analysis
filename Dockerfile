@@ -17,3 +17,10 @@ FROM python:3.9-slim-buster
  
  # Command to run the application
  CMD ["python", "main.py"]
+
+ WORKDIR /main
+ COPY requirements.txt .
+ RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy app code
+ COPY . .
