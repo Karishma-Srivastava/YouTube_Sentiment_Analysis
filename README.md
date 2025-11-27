@@ -64,7 +64,7 @@ chrome://extensions
 2. AmazonEC2FullAccess
 
 ## 3. create ECR repo to store/save docker image
-- save the URI: 128913199280.dkr.ecr.ap-south-1.amazonaws.com/mlproject
+- save the URI: "ECR ID"
 
 ## create ec2 machine ubuntu
 
