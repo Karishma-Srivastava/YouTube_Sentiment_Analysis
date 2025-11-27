@@ -97,6 +97,6 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = us-east-1
 
-AWS_ECR_LOGIN_URI = demo>> 128913199280.dkr.ecr.ap-south-1.amazonaws.com/mlproject
+AWS_ECR_LOGIN_URI = demo>> 
 
 ECR_REPOSITORY_NAME = simple-app
