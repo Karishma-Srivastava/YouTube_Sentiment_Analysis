@@ -97,6 +97,6 @@ AWS_SECRET_ACCESS_KEY=
 
 AWS_REGION = ap-south-1
 
-AWS_ECR_LOGIN_URI = demo>> 
+AWS_ECR_LOGIN_URI =  
 
 ECR_REPOSITORY_NAME = simple-app
