@@ -1,7 +1,7 @@
 FROM python:3.11-slim-buster
 
 # Set working directory
-WORKDIR /app
+WORKDIR /main
 
 # Copy requirements
 COPY requirements.txt .
@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port your app runs on
-EXPOSE 5000
+EXPOSE 8080
 
 # Run your actual application
 CMD ["python", "main.py"]
