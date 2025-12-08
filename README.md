@@ -91,11 +91,11 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
 
 # 7. setup github secret
 
-AWS_ACCESS_KEY_ID=
+AWS_ACCESS_KEY_ID
 
-AWS_SECRET_ACCESS_KEY=
+AWS_SECRET_ACCESS_KEY
 
-AWS_REGION = us-east-1
+AWS_REGION = 
 
 AWS_ECR_LOGIN_URI =  ecr id
 
